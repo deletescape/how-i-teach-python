@@ -89,11 +89,23 @@ Well it's not exactly math, but you can use the same operators used for math to 
 >>>
 ```
 
+> Adding multiple strings to each other is called concatenation
+
 We can now use this to greet ourselves instead of the entire world, because as stereotypical programmers we obviously don't want any social contact.
 
 ```python
 >>> user = "Till"
 >>> print("Hello " + user + "!")
 Hello Till!
+>>>
+```
+
+#### Concatenating strings and numbers
+
+You can concatenate numbers to a string as if they were a string as well by using `str()`. This converts the number to a string.
+
+```python
+>>> print("The meaning of life is " + str(42))
+The meaning of life is 42
 >>>
 ```
