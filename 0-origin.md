@@ -2,7 +2,7 @@
 
 We'll by using the python REPL for this initial introduction, so all you'll need is a working Python 3 installation and a terminal.
 
-> REPL stands for Read Eval Print Loop and stands for an interactive programming environment where user input is directly executed. It's basically a "messaging service for programming" in it's basics.
+> REPL stands for Read Eval Print Loop and stands for an interactive programming environment where user input is directly executed. It's basically a "chat for code" in it's basics.
 
 ## Hello world
 
@@ -62,3 +62,38 @@ We can also use our `pi` variable in a more practical example now, for example c
 >>>
 ```
 
+## Hello User!
+
+It's time for text! Programmers usually refer to text as strings, because text is essentially just a string of characters and that's how text is represented on a computer.
+
+We actually already used our first string in the Hello World example we made at the start. A string in python (and many other languages) is denoted using quotes like `"this"`, python also allows using `'single quotes'` for strings.
+
+You can also create variables with a string value, you can obviously use your own name in this example.
+
+```python
+>>> user = "Till"
+>>>
+```
+
+### Let's do some math!
+
+Wait what? Math with text?
+
+Well it's not exactly math, but you can use the same operators used for math to do some cool stuff with strings!
+
+```python
+>>> "Hello " + "World" + "!"
+'Hello World!'
+>>> "Repeat after me " * 2
+'Repeat after me Repeat after me '
+>>>
+```
+
+We can now use this to greet ourselves instead of the entire world, because as stereotypical programmers we obviously don't want any social contact.
+
+```python
+>>> user = "Till"
+>>> print("Hello " + user + "!")
+Hello Till!
+>>>
+```
