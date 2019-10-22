@@ -9,23 +9,23 @@ To create a list, you only have to surround elements which are just values divid
 [element1, element2, element3]
 
 #Assigning a list to a variable
-groceryList = ['Apples', 'Donuts', 'Cake']
+grocery_list = ['Apples', 'Donuts', 'Cake']
 ```
 ## Using the string oberator on lists
 
 One of the great things about python is that you can easily gain access and configure lists with the string operator.
 
 ```python
-groceryList = ['Apples', 'Donuts', 'Cake']
+grocery_list = ['Apples', 'Donuts', 'Cake']
 
-print(groceryList[0]) # Will print out 'Apple' since 'Apple' is at index 0
+print(grocery_list[0]) # Will print out 'Apple' since 'Apple' is at index 0
 ```
 The slice operator is formatted as such: yourList[start:stop:step]
 ```python
-print(groceryList[0:2] 
+print(grocery_list[0:2] 
 # Will print out 'Apple' 'Donuts' since the string operator starts at 0 and stops before 2
 
-print(groceryList[::2])
+print(grocery_list[::2])
 # Will print out 'Apple' 'Cake' since the string operator starts at the beginning which is 0 and counts up by 2
 ```
 
@@ -38,4 +38,3 @@ There are many methods out there, but here are some useful ones.
 `list.append(element)` Adds an element to the end of the list.
 
 `list.insert(index, element)` Adds an element to a specific index of the list.
-
