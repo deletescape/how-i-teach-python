@@ -33,9 +33,9 @@ print(groceryList[::2])
 
 There are many methods out there, but here are some useful ones.
 
-`list.pop(index value)` Removes the value at a specific index and return. No argument will return the last element in the list
+`list.pop(index value)` Removes the value at a specific index and return. No argument will return the last element in the list.
 
 `list.append(element)` Adds an element to the end of the list.
 
-`list.insert(index, element)` Adds an element to a specific index of the list
+`list.insert(index, element)` Adds an element to a specific index of the list.
 
