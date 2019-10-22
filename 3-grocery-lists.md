@@ -20,7 +20,7 @@ groceryList = ['Apples', 'Donuts', 'Cake']
 
 print(groceryList[0]) # Will print out 'Apple' since 'Apple' is at index 0
 ```
-The slice operator is formatted as such: yourList[start:stop:step]
+The slice operator is formatted as such: yourlist[start:stop:step]
 ```python
 print(groceryList[0:2] 
 # Will print out 'Apple' 'Donuts' since the string operator starts at 0 and stops before 2
